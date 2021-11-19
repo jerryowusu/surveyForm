@@ -20,7 +20,7 @@
     <input type="email" id="email" placeholder="Enter your email address" required>
     <br>
     <label id="number-label" for="number">Age</label> <br>
-     <input type="number" id="number" placeholder="Age"   required>
+     <input type="number" id="number" placeholder="Age" min="10" max="99"  required>
 
     <br>
       <select name="options" id="dropdown">
@@ -80,8 +80,11 @@
       <input id="courses" type="checkbox">
       <label for="courses">Additional courses</label><br>
       
-
-  </form>
+      <label for="textarea">Any comments or suggestions?</label><br>
+      <textarea name="textarea" id="textarea" cols="30" rows="10">Enter your comments here:</textarea>
+      <br>
+      <button id="submit">submit</button>
+    </form>
 
 
 
