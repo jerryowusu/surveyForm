@@ -8,9 +8,11 @@
 
   <body>
     <!-- <img src="./css/img.jpg" alt="background-img"> -->
+    <div id="header">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
     <form action="" id="survey-form">
 
     <label id="name-label" for="name">Name </label>
@@ -25,7 +27,7 @@
      <input type="number" id="number" placeholder="Age" min="10" max="99"  required>
 
     <br>
-      <select name="options" id="dropdown">
+      <select name="options" id="dropdown"><br>
         <option value="default">Select current role</option>
         <option value="student">Student</option>
         <option value="full time ">Full Time Job</option>
@@ -33,7 +35,7 @@
         <option value="not to say">Prefer not to say</option>
         <option value="other">Other</option>
       </select>
-
+      <br>
       <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
 
       <input  id="Definitely" type="radio" name="recommend"  value="Definitely" checked>
